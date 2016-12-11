@@ -10,6 +10,18 @@ eventsApp.controller('EventCtrl',
                 province: 'CA',
             },
             imageUrl: '/img/angularjs-logo.png',
+            sessions: [
+                {
+                    title: 'Python Fundamentals',
+                    lecturer: 'Joe Doe',
+                },{
+                    title: 'Python Beyoned the basics',
+                    lecturer: 'Paul Dan',
+                },{
+                    title: 'Django Fundamentals',
+                    lecturer: 'Dan Pastia',
+                },
+            ]
         }
     }
 );

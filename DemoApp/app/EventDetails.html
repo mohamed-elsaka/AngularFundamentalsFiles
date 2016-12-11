@@ -15,6 +15,13 @@
                     {{event.location.city}},
                     {{event.location.province}}
                 </h5>
+                <h3>Sessions:</h3>
+                <ul class="thumbnail">
+                    <li ng-repeat="session in event.sessions">
+                        <span>Title: </span> <span>{{session.title}}</span>
+                        <span>*Lecturer: </span> <span>{{session.lecturer}}</span>
+                    </li>
+                </ul>
             </div>
         </div>
 
