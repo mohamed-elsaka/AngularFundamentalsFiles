@@ -14,12 +14,15 @@ eventsApp.controller('EventCtrl',
                 {
                     title: 'Python Fundamentals',
                     lecturer: 'Joe Doe',
+                    time: '10:30 am',
                 },{
                     title: 'Python Beyoned the basics',
                     lecturer: 'Paul Dan',
+                    time: '11:30 am',
                 },{
                     title: 'Django Fundamentals',
                     lecturer: 'Dan Pastia',
+                    time: '12:30 am',
                 },
             ]
         }
